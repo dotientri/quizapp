@@ -1,0 +1,2194 @@
+{
+  "chapters": {
+    "1": {
+      "title": "Chương 1: Khái niệm cơ bản trong quản lý mạng máy tính",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Mạng máy tính là gì?",
+          "options": [
+            "Một hệ thống máy tính đơn lẻ",
+            "Nhóm các máy tính kết nối để chia sẻ tài nguyên",
+            "Một phần mềm quản lý dữ liệu",
+            "Một thiết bị mạng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đây là định nghĩa cơ bản của mạng máy tính."
+        },
+        {
+          "id": 2,
+          "question": "Lợi ích chính của mạng máy tính là gì?",
+          "options": [
+            "Tăng chi phí phần cứng",
+            "Tăng số lượng máy in",
+            "Chia sẻ tài nguyên và thông tin",
+            "Giảm hiệu suất hệ thống"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mạng giúp chia sẻ dữ liệu và thiết bị."
+        },
+        {
+          "id": 3,
+          "question": "Thiết bị dùng để kết nối các mạng khác nhau là?",
+          "options": [
+            "Switch",
+            "Hub",
+            "Router",
+            "Repeater"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Router định tuyến và kết nối các mạng."
+        },
+        {
+          "id": 4,
+          "question": "Giao thức TCP/IP được dùng trong?",
+          "options": [
+            "Mạng LAN",
+            "Mạng WAN",
+            "Internet",
+            "Tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "TCP/IP là bộ giao thức phổ biến ở mọi loại mạng."
+        },
+        {
+          "id": 5,
+          "question": "Thiết bị nào khuếch đại tín hiệu?",
+          "options": [
+            "Router",
+            "Switch",
+            "Hub",
+            "Repeater"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Repeater lặp lại tín hiệu để truyền xa hơn."
+        },
+        {
+          "id": 6,
+          "question": "Client là gì trong mạng máy tính?",
+          "options": [
+            "Máy sử dụng dịch vụ do server cung cấp",
+            "Máy chủ cung cấp dịch vụ",
+            "Thiết bị lưu trữ dữ liệu",
+            "Một kiểu phần mềm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Client truy cập tài nguyên do server cung cấp."
+        },
+        {
+          "id": 7,
+          "question": "Môi trường truyền dẫn phổ biến trong LAN?",
+          "options": [
+            "Sóng viba",
+            "Cáp xoắn đôi",
+            "Cáp quang",
+            "Hồng ngoại"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cáp xoắn đôi dễ lắp đặt, chi phí thấp."
+        },
+        {
+          "id": 8,
+          "question": "Dịch vụ cho phép chia sẻ file là?",
+          "options": [
+            "File Services",
+            "Print Services",
+            "Message Services",
+            "Application Services"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hỗ trợ chia sẻ file, thư mục trong mạng."
+        },
+        {
+          "id": 9,
+          "question": "Mô hình Domain có đặc điểm gì?",
+          "options": [
+            "Máy tự bảo mật",
+            "Không có máy chủ",
+            "Quản lý tập trung người dùng và tài nguyên",
+            "Không chia sẻ tài nguyên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Máy chủ quản lý xác thực và quyền truy cập."
+        },
+        {
+          "id": 10,
+          "question": "Mạng LAN có phạm vi?",
+          "options": [
+            "Trong một khu vực nhỏ như văn phòng",
+            "Toàn quốc",
+            "Toàn cầu",
+            "Giữa các lục địa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "LAN hoạt động trong phạm vi giới hạn."
+        },
+        {
+          "id": 11,
+          "question": "WAN là viết tắt của?",
+          "options": [
+            "Wide Area Node",
+            "Wide Area Network",
+            "Wireless Access Network",
+            "Web Access Node"
+          ],
+          "correctAnswer": 1,
+          "explanation": "WAN là mạng diện rộng."
+        },
+        {
+          "id": 12,
+          "question": "Hệ điều hành nào không phải hệ điều hành mạng?",
+          "options": [
+            "Windows Server",
+            "Unix",
+            "Novell Netware",
+            "Windows 98"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Windows 98 dùng cho cá nhân, không hỗ trợ mạng."
+        },
+        {
+          "id": 13,
+          "question": "Mạng CAN thường dùng trong?",
+          "options": [
+            "Quốc tế",
+            "Cửa hàng nhỏ",
+            "Khuôn viên trường học",
+            "Vệ tinh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "CAN kết nối nhiều LAN trong phạm vi học viện."
+        },
+        {
+          "id": 14,
+          "question": "Dịch vụ gửi nhận email là?",
+          "options": [
+            "File Services",
+            "Message Services",
+            "Print Services",
+            "Application Services"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Message Services xử lý thư điện tử."
+        },
+        {
+          "id": 15,
+          "question": "Print Server làm gì?",
+          "options": [
+            "Quản lý việc in trong mạng",
+            "Lưu trữ tệp tin",
+            "Gửi thư",
+            "Bảo vệ hệ thống"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cho phép chia sẻ máy in và quản lý hàng đợi."
+        },
+        {
+          "id": 16,
+          "question": "Đặc điểm của mô hình phân phối?",
+          "options": [
+            "Xử lý tại trung tâm",
+            "Server xử lý toàn bộ",
+            "Chia công việc cho nhiều máy",
+            "Không kết nối"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Các nút cùng xử lý dữ liệu."
+        },
+        {
+          "id": 17,
+          "question": "Mô hình cộng tác phù hợp khi?",
+          "options": [
+            "Cần xử lý hiệu suất cao",
+            "Chia sẻ file nhỏ",
+            "In ấn",
+            "Tạo báo cáo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Kết hợp năng lực xử lý của nhiều máy."
+        },
+        {
+          "id": 18,
+          "question": "Giao thức SNMP dùng để?",
+          "options": [
+            "Gửi email",
+            "Truyền file",
+            "Tạo tên miền",
+            "Giám sát thiết bị mạng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "SNMP là giao thức quản trị mạng."
+        },
+        {
+          "id": 19,
+          "question": "Cơ sở thông tin quản trị viết tắt là?",
+          "options": [
+            "NMS",
+            "MIB",
+            "SNMP",
+            "TCP/IP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "MIB lưu trữ thông tin thiết bị."
+        },
+        {
+          "id": 20,
+          "question": "Trạm quản trị mạng gọi là?",
+          "options": [
+            "Agent",
+            "Managed Device",
+            "NMS",
+            "SNMP"
+          ],
+          "correctAnswer": 2,
+          "explanation": "NMS dùng để giám sát và điều khiển."
+        },
+        {
+          "id": 21,
+          "question": "Công cụ phát hiện thiết bị lạ là?",
+          "options": [
+            "Kiểm soát người dùng",
+            "Lọc gói tin",
+            "In ấn",
+            "Backup"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Giúp phát hiện truy cập trái phép."
+        },
+        {
+          "id": 22,
+          "question": "Giải pháp lưu trữ dữ liệu quan trọng?",
+          "options": [
+            "LAN",
+            "CAN",
+            "Backup",
+            "Mail"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Backup giúp khôi phục dữ liệu khi gặp sự cố."
+        },
+        {
+          "id": 23,
+          "question": "Người dùng xác thực bằng?",
+          "options": [
+            "IP",
+            "Tên đăng nhập và mật khẩu",
+            "Thiết bị",
+            "File cấu hình"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hệ thống kiểm tra thông tin xác thực."
+        },
+        {
+          "id": 24,
+          "question": "Router dùng để?",
+          "options": [
+            "Phát Wi-Fi",
+            "In tài liệu",
+            "Kết nối các mạng",
+            "Quản lý cơ sở dữ liệu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Router kết nối mạng LAN với WAN hoặc Internet."
+        },
+        {
+          "id": 25,
+          "question": "Dịch vụ chia sẻ cơ sở dữ liệu?",
+          "options": [
+            "Message Services",
+            "Print Services",
+            "File Services",
+            "Database Services"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Database Services dùng để quản lý dữ liệu."
+        },
+        {
+          "id": 26,
+          "question": "Tài nguyên mạng gồm?",
+          "options": [
+            "File, máy in, thư mục",
+            "Chỉ máy chủ",
+            "Phần mềm",
+            "Cổng mạng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Là các tài nguyên được chia sẻ qua mạng."
+        },
+        {
+          "id": 27,
+          "question": "Hàng đợi in giúp?",
+          "options": [
+            "Tăng chi phí",
+            "Ưu tiên thứ tự in",
+            "Tăng tốc độ mạng",
+            "Ngăn chặn người dùng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Quản lý in ấn hiệu quả."
+        },
+        {
+          "id": 28,
+          "question": "Administrator là?",
+          "options": [
+            "Người dùng bình thường",
+            "Người gửi email",
+            "Quản trị mạng",
+            "Người sửa phần cứng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Có quyền cao nhất trong mạng."
+        },
+        {
+          "id": 29,
+          "question": "Giao thức nào không dùng trong Internet?",
+          "options": [
+            "TCP/IP",
+            "HTTP",
+            "FTP",
+            "NetBEUI"
+          ],
+          "correctAnswer": 3,
+          "explanation": "NetBEUI chỉ dùng trong mạng nội bộ."
+        },
+        {
+          "id": 30,
+          "question": "SNMP được dùng để?",
+          "options": [
+            "Cấp phát IP",
+            "Theo dõi người dùng",
+            "Giám sát thiết bị mạng",
+            "Chia sẻ máy in"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Là giao thức chính trong quản trị mạng."
+        }
+      ]
+    },
+    "2": {
+      "title": "Chương 2: Mô hình thông tin quản lý mạng",
+      "questions": [
+        {
+          "id": 31,
+          "question": "Mô hình OSI có bao nhiêu tầng?",
+          "options": [
+            "5 tầng",
+            "6 tầng",
+            "7 tầng",
+            "8 tầng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "OSI gồm 7 tầng từ vật lý đến ứng dụng."
+        },
+        {
+          "id": 32,
+          "question": "Tầng nào trong mô hình OSI chịu trách nhiệm định tuyến dữ liệu?",
+          "options": [
+            "Tầng liên kết dữ liệu",
+            "Tầng mạng",
+            "Tầng phiên",
+            "Tầng vận chuyển"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tầng mạng xử lý địa chỉ IP và định tuyến."
+        },
+        {
+          "id": 33,
+          "question": "Giao thức IP hoạt động ở tầng nào của mô hình OSI?",
+          "options": [
+            "Ứng dụng",
+            "Liên kết dữ liệu",
+            "Mạng",
+            "Vận chuyển"
+          ],
+          "correctAnswer": 2,
+          "explanation": "IP thuộc tầng 3 – tầng mạng."
+        },
+        {
+          "id": 34,
+          "question": "Giao thức TCP hoạt động ở tầng nào?",
+          "options": [
+            "Tầng phiên",
+            "Tầng vận chuyển",
+            "Tầng mạng",
+            "Tầng liên kết dữ liệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "TCP hoạt động ở tầng 4 – vận chuyển (transport)."
+        },
+        {
+          "id": 35,
+          "question": "Tầng vật lý chịu trách nhiệm gì?",
+          "options": [
+            "Mã hóa dữ liệu",
+            "Giao tiếp người dùng",
+            "Truyền dữ liệu ở mức bit",
+            "Đảm bảo bảo mật dữ liệu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tầng vật lý truyền tín hiệu dưới dạng bit qua môi trường vật lý."
+        },
+        {
+          "id": 36,
+          "question": "Giao thức SNMP dùng để làm gì?",
+          "options": [
+            "Gửi email",
+            "Truyền file",
+            "Giám sát thiết bị mạng",
+            "Tạo tên miền"
+          ],
+          "correctAnswer": 2,
+          "explanation": "SNMP là giao thức quản trị mạng chuẩn."
+        },
+        {
+          "id": 37,
+          "question": "“Luồng” trong mạng là gì?",
+          "options": [
+            "Một thiết bị mạng",
+            "Một dòng dữ liệu bất kỳ",
+            "Tập hợp các gói có cùng đặc tính",
+            "Tệp cấu hình mạng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Luồng gồm các gói có cùng IP, cổng, giao thức…"
+        },
+        {
+          "id": 38,
+          "question": "Wireshark dùng để?",
+          "options": [
+            "Cấp phát IP",
+            "Quản lý file",
+            "Phân tích và giám sát gói tin mạng",
+            "In tài liệu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Wireshark bắt và phân tích gói tin chi tiết."
+        },
+        {
+          "id": 39,
+          "question": "Nhật ký hệ điều hành (log) có tác dụng gì?",
+          "options": [
+            "Ghi lại hoạt động hệ thống",
+            "Lưu mật khẩu",
+            "Tăng tốc mạng",
+            "Xóa dữ liệu tạm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Log lưu lại thông tin sự kiện của hệ thống."
+        },
+        {
+          "id": 40,
+          "question": "Lấy mẫu (sampling) có tác dụng gì?",
+          "options": [
+            "Xác thực người dùng",
+            "Phân quyền",
+            "Gửi mail hàng loạt",
+            "Giảm dữ liệu cần thu thập"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Sampling giảm tải dữ liệu, tăng hiệu quả xử lý."
+        },
+        {
+          "id": 41,
+          "question": "Giao thức quản trị mạng nào dùng để giám sát từ xa?",
+          "options": [
+            "FTP",
+            "SMTP",
+            "SNMP",
+            "POP3"
+          ],
+          "correctAnswer": 2,
+          "explanation": "SNMP cho phép quản lý và giám sát thiết bị từ xa."
+        },
+        {
+          "id": 42,
+          "question": "NetFlow là gì?",
+          "options": [
+            "Giao thức gửi mail",
+            "Giao thức truyền file",
+            "Giao thức thu thập thông tin luồng dữ liệu",
+            "Giao thức in ấn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "NetFlow thu thập thông tin về luồng mạng."
+        },
+        {
+          "id": 43,
+          "question": "Giao thức nào sau đây không thuộc nhóm quản trị mạng?",
+          "options": [
+            "SNMP",
+            "RMON",
+            "NetFlow",
+            "HTTP"
+          ],
+          "correctAnswer": 3,
+          "explanation": "HTTP là giao thức truyền tải nội dung web."
+        },
+        {
+          "id": 44,
+          "question": "Log tập trung là gì?",
+          "options": [
+            "Ghi log cục bộ",
+            "Ghi log vào RAM",
+            "Thu log từ nhiều thiết bị về một nơi",
+            "Gửi log đến từng người dùng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tập trung log giúp quản lý dễ hơn."
+        },
+        {
+          "id": 45,
+          "question": "Sampling phân tầng giúp gì?",
+          "options": [
+            "Tạo báo cáo tài chính",
+            "Giảm báo động sai, phát hiện tốt hơn",
+            "Tăng chi phí mạng",
+            "Tăng log sai lệch"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Giúp tăng hiệu quả giám sát và bảo mật."
+        },
+        {
+          "id": 46,
+          "question": "Phân tích gói tin giúp gì?",
+          "options": [
+            "Nén gói",
+            "Ẩn địa chỉ IP",
+            "Hiểu rõ dữ liệu và phát hiện sự cố",
+            "Tăng tốc truyền"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hỗ trợ xử lý sự cố và tối ưu mạng."
+        },
+        {
+          "id": 47,
+          "question": "Nhược điểm của log local?",
+          "options": [
+            "Dễ phân tích",
+            "Lưu trữ không giới hạn",
+            "Dễ chia sẻ",
+            "Không tổng hợp tập trung"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Log local khó kiểm tra toàn hệ thống."
+        },
+        {
+          "id": 48,
+          "question": "Sampling đơn giản có đặc điểm gì?",
+          "options": [
+            "Lấy mẫu theo lớp",
+            "Không giảm dữ liệu",
+            "Lấy gói ngẫu nhiên",
+            "Dễ sai số"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đơn giản nhất là lấy ngẫu nhiên gói tin."
+        },
+        {
+          "id": 49,
+          "question": "Các công cụ giám sát mạng giúp gì?",
+          "options": [
+            "Tăng chi phí",
+            "Ẩn dữ liệu",
+            "Phát hiện sự cố sớm",
+            "Xóa log"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Giúp phát hiện sớm lỗi và tấn công."
+        },
+        {
+          "id": 50,
+          "question": "Tiêu chí đánh giá hiệu suất gồm bao nhiêu yếu tố?",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Gồm: IN, EF, SC, EX, NP, RO, SS."
+        },
+        {
+          "id": 51,
+          "question": "Thông tin nào là “tĩnh” trong mạng?",
+          "options": [
+            "Dung lượng RAM",
+            "Lưu lượng mạng",
+            "Dữ liệu qua giao diện",
+            "Cấu hình phần cứng, phần mềm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tĩnh là thông tin không thay đổi thường xuyên."
+        },
+        {
+          "id": 52,
+          "question": "Công cụ lọc gói tin giúp gì?",
+          "options": [
+            "Lưu mật khẩu",
+            "Gán quyền",
+            "Giám sát theo dịch vụ",
+            "Tắt kết nối"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Lọc gói giúp kiểm tra theo giao thức/dịch vụ."
+        },
+        {
+          "id": 53,
+          "question": "Công cụ kiểm soát người dùng giúp?",
+          "options": [
+            "Gán IP",
+            "Giám sát truy cập trái phép",
+            "Xóa file",
+            "Tăng tốc mạng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Giúp phát hiện thiết bị lạ vào hệ thống."
+        },
+        {
+          "id": 54,
+          "question": "Promiscuous mode trong Wireshark có tác dụng gì?",
+          "options": [
+            "Chặn truy cập",
+            "Bắt mọi gói tin đi qua",
+            "Chỉ lọc gói tin HTTP",
+            "Không hiển thị dữ liệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cho phép bắt mọi gói, kể cả không gửi đến máy đó."
+        },
+        {
+          "id": 55,
+          "question": "RMON dùng để?",
+          "options": [
+            "In ấn",
+            "Gửi mail",
+            "Giám sát từ xa mạng LAN",
+            "Mã hóa dữ liệu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "RMON mở rộng SNMP để phân tích từ xa."
+        },
+        {
+          "id": 56,
+          "question": "“Availability” nghĩa là gì?",
+          "options": [
+            "Bảo mật",
+            "Luôn sẵn sàng hoạt động",
+            "Sao lưu",
+            "Cấp quyền"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tính khả dụng cao là yêu cầu của hệ thống mạng."
+        },
+        {
+          "id": 57,
+          "question": "“Integrity” nghĩa là gì?",
+          "options": [
+            "Tính riêng tư",
+            "Tính toàn vẹn dữ liệu",
+            "Sự trùng lặp",
+            "Khả năng sao lưu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dữ liệu không bị thay đổi trái phép."
+        },
+        {
+          "id": 58,
+          "question": "“Confidentiality” nghĩa là gì?",
+          "options": [
+            "Tính sẵn sàng",
+            "Tính bảo mật thông tin",
+            "Tính đồng bộ",
+            "Dễ sao chép"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chỉ người được phép mới truy cập thông tin."
+        },
+        {
+          "id": 59,
+          "question": "“Authentication” dùng để?",
+          "options": [
+            "Kiểm tra dữ liệu",
+            "Kiểm tra danh tính người dùng",
+            "Ghi log",
+            "Nén dữ liệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Xác minh người dùng có hợp lệ không."
+        },
+        {
+          "id": 60,
+          "question": "“Authorization” là gì?",
+          "options": [
+            "Cho phép người dùng thực hiện hành động",
+            "Mã hóa kết nối",
+            "Định tuyến",
+            "Lưu tệp tin"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sau khi xác thực, phân quyền truy cập là bước tiếp theo."
+        }
+      ]
+    },
+    "3": {
+      "title": "Chương 3: Dịch vụ mạng cơ bản",
+      "questions": [
+        {
+          "id": 61,
+          "question": "Dịch vụ DNS dùng để:",
+          "options": [
+            "Chia sẻ tập tin",
+            "Cấp phát IP",
+            "Phân giải tên miền",
+            "Mã hóa dữ liệu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "DNS dùng để ánh xạ tên miền sang địa chỉ IP."
+        },
+        {
+          "id": 62,
+          "question": "Port mặc định của HTTP là:",
+          "options": [
+            "21",
+            "23",
+            "80",
+            "110"
+          ],
+          "correctAnswer": 2,
+          "explanation": "HTTP hoạt động trên cổng 80 theo mặc định."
+        },
+        {
+          "id": 63,
+          "question": "DHCP viết tắt của:",
+          "options": [
+            "Domain Host Control Protocol",
+            "Dynamic Host Configuration Protocol",
+            "Distributed Host Configuration Protocol",
+            "Direct Host Control Protocol"
+          ],
+          "correctAnswer": 1,
+          "explanation": "DHCP cấp phát IP tự động cho các thiết bị trong mạng."
+        },
+        {
+          "id": 64,
+          "question": "Dịch vụ nào cung cấp email?",
+          "options": [
+            "FTP",
+            "SMTP",
+            "Telnet",
+            "DNS"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SMTP là giao thức gửi email."
+        },
+        {
+          "id": 65,
+          "question": "Giao thức FTP sử dụng port:",
+          "options": [
+            "23",
+            "21",
+            "22",
+            "110"
+          ],
+          "correctAnswer": 1,
+          "explanation": "FTP dùng port 21 cho điều khiển kết nối."
+        },
+        {
+          "id": 66,
+          "question": "Địa chỉ IP được cấp bởi DHCP là:",
+          "options": [
+            "Tĩnh",
+            "Cố định",
+            "Thay đổi tự động",
+            "Bảo mật"
+          ],
+          "correctAnswer": 2,
+          "explanation": "DHCP tự động cấp phát IP, không cố định."
+        },
+        {
+          "id": 67,
+          "question": "Giao thức POP3 dùng để:",
+          "options": [
+            "Gửi email",
+            "Nhận email",
+            "Mã hóa email",
+            "Lưu trữ email"
+          ],
+          "correctAnswer": 1,
+          "explanation": "POP3 tải email từ server về máy người dùng."
+        },
+        {
+          "id": 68,
+          "question": "Telnet được sử dụng để:",
+          "options": [
+            "Chuyển file",
+            "Truy cập từ xa",
+            "Chia sẻ máy in",
+            "Giám sát mạng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Telnet là giao thức truy cập thiết bị từ xa."
+        },
+        {
+          "id": 69,
+          "question": "DHCP hoạt động dựa trên mô hình:",
+          "options": [
+            "Client-server",
+            "Peer-to-peer",
+            "Token ring",
+            "Tầng vật lý"
+          ],
+          "correctAnswer": 0,
+          "explanation": "DHCP là dịch vụ client-server, máy chủ cấp IP cho client."
+        },
+        {
+          "id": 70,
+          "question": "DNS phân giải:",
+          "options": [
+            "IP sang MAC",
+            "MAC sang IP",
+            "IP sang tên miền",
+            "Tên miền sang IP"
+          ],
+          "correctAnswer": 3,
+          "explanation": "DNS chuyển tên miền (vd: google.com) sang IP."
+        },
+        {
+          "id": 71,
+          "question": "SMTP sử dụng port:",
+          "options": [
+            "25",
+            "110",
+            "21",
+            "443"
+          ],
+          "correctAnswer": 0,
+          "explanation": "SMTP hoạt động mặc định trên port 25."
+        },
+        {
+          "id": 72,
+          "question": "DNS có thể trả về:",
+          "options": [
+            "Địa chỉ MAC",
+            "Địa chỉ IP",
+            "Tên người dùng",
+            "Mật khẩu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "DNS ánh xạ tên miền sang địa chỉ IP."
+        },
+        {
+          "id": 73,
+          "question": "Port của dịch vụ POP3 là:",
+          "options": [
+            "21",
+            "25",
+            "110",
+            "143"
+          ],
+          "correctAnswer": 2,
+          "explanation": "POP3 nhận email qua cổng 110."
+        },
+        {
+          "id": 74,
+          "question": "Giao thức HTTP bảo mật hơn là:",
+          "options": [
+            "FTP",
+            "HTTPS",
+            "SMTP",
+            "DHCP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "HTTPS là phiên bản bảo mật của HTTP."
+        },
+        {
+          "id": 75,
+          "question": "Giao thức FTP yêu cầu bao nhiêu cổng?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "explanation": "FTP dùng 1 cổng cho điều khiển, 1 cho dữ liệu."
+        },
+        {
+          "id": 76,
+          "question": "Dịch vụ gửi mail là:",
+          "options": [
+            "POP3",
+            "IMAP",
+            "SMTP",
+            "DHCP"
+          ],
+          "correctAnswer": 2,
+          "explanation": "SMTP gửi email, còn POP3/IMAP là nhận email."
+        },
+        {
+          "id": 77,
+          "question": "DNS có vai trò:",
+          "options": [
+            "Quản lý địa chỉ MAC",
+            "Cấp phát IP",
+            "Phân giải tên miền",
+            "Lưu trữ email"
+          ],
+          "correctAnswer": 2,
+          "explanation": "DNS dùng để ánh xạ tên miền sang địa chỉ IP."
+        },
+        {
+          "id": 78,
+          "question": "Giao thức truyền dữ liệu có xác thực là:",
+          "options": [
+            "FTP",
+            "TFTP",
+            "SFTP",
+            "DHCP"
+          ],
+          "correctAnswer": 2,
+          "explanation": "SFTP có cơ chế mã hóa và xác thực an toàn hơn FTP."
+        },
+        {
+          "id": 79,
+          "question": "Giao thức IMAP dùng port:",
+          "options": [
+            "143",
+            "110",
+            "25",
+            "22"
+          ],
+          "correctAnswer": 0,
+          "explanation": "IMAP giúp đồng bộ email trên nhiều thiết bị."
+        },
+        {
+          "id": 80,
+          "question": "Port của Telnet là:",
+          "options": [
+            "23",
+            "80",
+            "443",
+            "21"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Telnet hoạt động mặc định trên port 23."
+        },
+        {
+          "id": 81,
+          "question": "DHCP có thể cấp phát IP theo:",
+          "options": [
+            "Bảng tĩnh",
+            "Tự động, thủ công, cố định",
+            "DNS",
+            "SMTP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "DHCP hỗ trợ nhiều phương thức cấp phát IP."
+        },
+        {
+          "id": 82,
+          "question": "FTP viết tắt của:",
+          "options": [
+            "File Transfer Protocol",
+            "File Translate Protocol",
+            "Fast Transfer Protocol",
+            "File Timing Protocol"
+          ],
+          "correctAnswer": 0,
+          "explanation": "FTP là giao thức truyền file."
+        },
+        {
+          "id": 83,
+          "question": "DHCP cấp IP cho:",
+          "options": [
+            "Máy chủ",
+            "Client",
+            "Router",
+            "Switch"
+          ],
+          "correctAnswer": 1,
+          "explanation": "DHCP cấp IP động cho các máy client."
+        },
+        {
+          "id": 84,
+          "question": "DNS có thể hoạt động theo mô hình:",
+          "options": [
+            "Chỉ client",
+            "Client-server",
+            "Ngang hàng",
+            "Tầng vật lý"
+          ],
+          "correctAnswer": 1,
+          "explanation": "DNS hoạt động theo mô hình client-server."
+        },
+        {
+          "id": 85,
+          "question": "HTTPS dùng port:",
+          "options": [
+            "443",
+            "80",
+            "22",
+            "25"
+          ],
+          "correctAnswer": 0,
+          "explanation": "HTTPS hoạt động trên cổng 443 với mã hóa SSL/TLS."
+        },
+        {
+          "id": 86,
+          "question": "Giao thức TFTP khác FTP ở điểm:",
+          "options": [
+            "Không cần xác thực",
+            "Dùng TCP",
+            "Bảo mật hơn",
+            "Không truyền file"
+          ],
+          "correctAnswer": 0,
+          "explanation": "TFTP đơn giản hơn, không yêu cầu xác thực."
+        },
+        {
+          "id": 87,
+          "question": "Giao thức truy cập email từ nhiều thiết bị:",
+          "options": [
+            "POP3",
+            "SMTP",
+            "IMAP",
+            "FTP"
+          ],
+          "correctAnswer": 2,
+          "explanation": "IMAP đồng bộ email trên nhiều thiết bị."
+        },
+        {
+          "id": 88,
+          "question": "Dịch vụ cấp IP tĩnh:",
+          "options": [
+            "DHCP",
+            "DNS",
+            "Manual",
+            "Telnet"
+          ],
+          "correctAnswer": 2,
+          "explanation": "IP tĩnh được cấu hình thủ công, không qua DHCP."
+        },
+        {
+          "id": 89,
+          "question": "Truy cập Telnet có nhược điểm:",
+          "options": [
+            "Nhanh",
+            "Không mã hóa",
+            "Hỗ trợ nhiều người",
+            "Dễ cài đặt"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Telnet truyền dữ liệu không mã hóa, dễ bị nghe lén."
+        },
+        {
+          "id": 90,
+          "question": "DHCP không cần thiết khi:",
+          "options": [
+            "Mạng lớn",
+            "Mạng nhỏ có IP tĩnh",
+            "Nhiều user",
+            "Không có DNS"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mạng nhỏ với IP tĩnh không cần DHCP."
+        }
+      ]
+    },
+    "4": {
+      "title": "Chương 4: Quản lý lỗi",
+      "questions": [
+        {
+          "id": 91,
+          "question": "Quản lý lỗi là quá trình:",
+          "options": [
+            "Tạo lỗi để kiểm tra mạng",
+            "Xử lý dữ liệu",
+            "Phát hiện, xác định và xử lý lỗi",
+            "Cập nhật phần mềm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quản lý lỗi gồm phát hiện, cô lập và sửa lỗi nếu có thể."
+        },
+        {
+          "id": 92,
+          "question": "Mục tiêu chính của quản lý lỗi:",
+          "options": [
+            "Ghi nhận lỗi",
+            "Tự động xóa lỗi",
+            "Đảm bảo mạng vận hành ổn định",
+            "Giảm chi phí phần cứng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quản lý lỗi đảm bảo mạng hoạt động trơn tru."
+        },
+        {
+          "id": 93,
+          "question": "FM là viết tắt của:",
+          "options": [
+            "File Management",
+            "Fault Management",
+            "Fast Monitor",
+            "File Monitor"
+          ],
+          "correctAnswer": 1,
+          "explanation": "FM là Fault Management, tức quản lý lỗi."
+        },
+        {
+          "id": 94,
+          "question": "Công cụ quản lý lỗi làm gì?",
+          "options": [
+            "Thay đổi địa chỉ IP",
+            "Theo dõi và cảnh báo lỗi",
+            "Gửi mail",
+            "Mã hóa dữ liệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Công cụ quản lý lỗi giám sát và thông báo sự cố."
+        },
+        {
+          "id": 95,
+          "question": "Thành phần nào không phải của chu trình quản lý lỗi?",
+          "options": [
+            "Phát hiện",
+            "Cảnh báo",
+            "Diệt virus",
+            "Giải quyết"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Diệt virus không thuộc chu trình quản lý lỗi mạng."
+        },
+        {
+          "id": 96,
+          "question": "Việc gửi thông báo lỗi đến người dùng gọi là:",
+          "options": [
+            "Phân tích",
+            "Cảnh báo",
+            "Xác thực",
+            "Ghi log"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cảnh báo thông báo lỗi đến quản trị viên hoặc người dùng."
+        },
+        {
+          "id": 97,
+          "question": "SNMP là:",
+          "options": [
+            "Giao thức gửi email",
+            "Giao thức giám sát mạng",
+            "Giao thức DNS",
+            "Giao thức IP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SNMP là giao thức giám sát và quản trị mạng."
+        },
+        {
+          "id": 98,
+          "question": "Một lỗi phần cứng ví dụ là:",
+          "options": [
+            "Cáp mạng bị đứt",
+            "IP bị trùng",
+            "Trình duyệt lỗi",
+            "File word bị hỏng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cáp mạng đứt là lỗi phần cứng điển hình."
+        },
+        {
+          "id": 99,
+          "question": "Công cụ quản lý lỗi giúp:",
+          "options": [
+            "Làm chậm mạng",
+            "Cảnh báo sớm sự cố",
+            "Phát tán virus",
+            "Đổi tên miền"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Công cụ này giúp phát hiện và xử lý lỗi sớm."
+        },
+        {
+          "id": 100,
+          "question": "Lỗi phổ biến nhất do:",
+          "options": [
+            "Thiên tai",
+            "Hacker",
+            "Con người",
+            "Virus"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Lỗi do con người như cấu hình sai là rất phổ biến."
+        },
+        {
+          "id": 101,
+          "question": "Quản lý lỗi có thể:",
+          "options": [
+            "Ngăn mọi lỗi xảy ra",
+            "Không cần phần mềm",
+            "Khắc phục lỗi nhanh chóng",
+            "Chỉ theo dõi mà không sửa lỗi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quản lý lỗi giúp xử lý sự cố nhanh chóng."
+        },
+        {
+          "id": 102,
+          "question": "Mục tiêu chính của phát hiện lỗi:",
+          "options": [
+            "Tắt hệ thống",
+            "Đánh giá hiệu suất",
+            "Xác định vấn đề kịp thời",
+            "Tăng tốc độ mạng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Phát hiện lỗi sớm giúp giảm thiểu thiệt hại."
+        },
+        {
+          "id": 103,
+          "question": "Cảnh báo lỗi có thể qua:",
+          "options": [
+            "SMS",
+            "Email",
+            "Cửa sổ thông báo",
+            "Tất cả đúng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cảnh báo có thể được gửi qua nhiều kênh."
+        },
+        {
+          "id": 104,
+          "question": "Quản lý lỗi giúp tăng:",
+          "options": [
+            "Lợi nhuận công ty",
+            "Hiệu suất mạng",
+            "Giá thiết bị",
+            "Chi phí sửa chữa"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Quản lý lỗi cải thiện hiệu suất và độ ổn định."
+        },
+        {
+          "id": 105,
+          "question": "Lỗi có thể xảy ra do:",
+          "options": [
+            "Phần cứng",
+            "Phần mềm",
+            "Người dùng",
+            "Tất cả đúng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Lỗi có thể xuất phát từ nhiều nguồn."
+        },
+        {
+          "id": 106,
+          "question": "Phát hiện lỗi sớm giúp:",
+          "options": [
+            "Ngăn mất dữ liệu",
+            "Tăng chi phí bảo trì",
+            "Làm chậm hệ thống",
+            "Gây gián đoạn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Phát hiện sớm giảm nguy cơ mất dữ liệu."
+        },
+        {
+          "id": 107,
+          "question": "Một lỗi mạng có thể:",
+          "options": [
+            "Không ảnh hưởng gì",
+            "Làm ngưng toàn bộ hệ thống",
+            "Làm tăng hiệu suất",
+            "Làm mạng nhanh hơn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lỗi nghiêm trọng có thể làm gián đoạn toàn hệ thống."
+        },
+        {
+          "id": 108,
+          "question": "Quản lý lỗi giám sát:",
+          "options": [
+            "Mạng LAN",
+            "Phần cứng",
+            "Thiết bị mạng",
+            "Tất cả đúng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Quản lý lỗi bao quát nhiều khía cạnh của mạng."
+        },
+        {
+          "id": 109,
+          "question": "Phần mềm quản lý lỗi hiện nay:",
+          "options": [
+            "Thủ công",
+            "Không có cảnh báo",
+            "Tự động phát hiện và cảnh báo",
+            "Chỉ ghi log"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Phần mềm hiện đại tự động hóa quá trình quản lý lỗi."
+        },
+        {
+          "id": 110,
+          "question": "Quản lý lỗi giúp giảm:",
+          "options": [
+            "Hiệu suất",
+            "Thời gian chết hệ thống",
+            "Tính ổn định",
+            "Số lượng người dùng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Quản lý lỗi giảm thời gian hệ thống không hoạt động."
+        },
+        {
+          "id": 111,
+          "question": "Một công cụ quản lý lỗi hiệu quả cần:",
+          "options": [
+            "Có nhiều lỗi",
+            "Không kết nối mạng",
+            "Hiểu rõ cấu trúc mạng",
+            "Có nhiều cảnh báo giả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Công cụ cần hiểu cấu trúc để giám sát chính xác."
+        },
+        {
+          "id": 112,
+          "question": "Mỗi cảnh báo cần:",
+          "options": [
+            "Chặn kết nối",
+            "Phân tích và xử lý",
+            "Cài lại driver",
+            "Đổi DNS"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cảnh báo cần được phân tích để xử lý phù hợp."
+        },
+        {
+          "id": 113,
+          "question": "Quản lý lỗi nên thực hiện:",
+          "options": [
+            "Khi hệ thống bị hỏng",
+            "Chỉ trong giờ hành chính",
+            "Liên tục và chủ động",
+            "Sau khi lỗi xảy ra"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quản lý lỗi cần được thực hiện liên tục."
+        },
+        {
+          "id": 114,
+          "question": "Phân tích SNMP giúp:",
+          "options": [
+            "Đổi IP",
+            "Phát hiện bất thường",
+            "Chuyển đổi dữ liệu",
+            "Xóa log"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SNMP giúp phát hiện các vấn đề bất thường trong mạng."
+        },
+        {
+          "id": 115,
+          "question": "Cảnh báo được gom nhóm để:",
+          "options": [
+            "Giảm chi phí",
+            "Tránh lặp lại và dễ quản lý",
+            "Không phải xử lý",
+            "Tạo log đẹp hơn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Gom nhóm cảnh báo giúp quản lý hiệu quả hơn."
+        },
+        {
+          "id": 116,
+          "question": "Công cụ quản lý lỗi có thể:",
+          "options": [
+            "Tự động sửa lỗi nhỏ",
+            "Xóa hệ thống",
+            "Cản trở truy cập",
+            "Chỉ tạo báo cáo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một số công cụ có khả năng tự sửa lỗi nhỏ."
+        },
+        {
+          "id": 117,
+          "question": "Lỗi phần mềm là:",
+          "options": [
+            "RAM bị hỏng",
+            "CPU nóng",
+            "Dịch vụ web không hoạt động",
+            "Cáp đứt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dịch vụ web không hoạt động là lỗi phần mềm."
+        },
+        {
+          "id": 118,
+          "question": "Công cụ giám sát thường thu thập:",
+          "options": [
+            "Log hệ thống",
+            "SNMP data",
+            "Hiệu suất mạng",
+            "Tất cả đúng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Công cụ giám sát thu thập nhiều loại dữ liệu."
+        },
+        {
+          "id": 119,
+          "question": "Sự cố mạng nghiêm trọng:",
+          "options": [
+            "Không cần giám sát",
+            "Luôn do hacker gây ra",
+            "Có thể do cấu hình sai",
+            "Không thể ngăn ngừa"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cấu hình sai là nguyên nhân phổ biến của sự cố."
+        },
+        {
+          "id": 120,
+          "question": "Quản lý lỗi trong quản trị mạng là:",
+          "options": [
+            "Không quan trọng",
+            "Chỉ dùng khi có virus",
+            "Cần thiết và thường xuyên",
+            "Chỉ dùng cho server"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quản lý lỗi là phần thiết yếu trong quản trị mạng."
+        }
+      ]
+    },
+    "5": {
+      "title": "Chương 5: Quản lý hiệu năng mạng",
+      "questions": [
+        {
+          "id": 121,
+          "question": "Mục tiêu của quản lý hiệu năng là:",
+          "options": [
+            "Giảm chi phí phần cứng",
+            "Tăng tốc độ truyền dữ liệu và đảm bảo ổn định",
+            "Chống virus",
+            "Đổi địa chỉ IP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Quản lý hiệu năng giúp mạng hoạt động trơn tru, tối ưu."
+        },
+        {
+          "id": 122,
+          "question": "Hiệu năng mạng đo bằng:",
+          "options": [
+            "Địa chỉ IP",
+            "Độ trễ, thông lượng, độ mất gói, jitter",
+            "Loại cáp mạng",
+            "Số máy tính kết nối"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đây là các chỉ số phản ánh chất lượng mạng."
+        },
+        {
+          "id": 123,
+          "question": "Jitter là:",
+          "options": [
+            "Tốc độ mạng",
+            "Độ trễ trung bình",
+            "Biến động độ trễ gói tin",
+            "Độ ổn định đường truyền"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Jitter là sự dao động về thời gian truyền gói tin."
+        },
+        {
+          "id": 124,
+          "question": "Mất gói (packet loss) gây ra:",
+          "options": [
+            "Truyền dữ liệu nhanh hơn",
+            "Mạng chậm, giật, ngắt kết nối",
+            "Tăng bảo mật",
+            "Tăng tốc độ phản hồi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mất gói làm giảm chất lượng kết nối."
+        },
+        {
+          "id": 125,
+          "question": "Công cụ đo hiệu năng mạng:",
+          "options": [
+            "CMD",
+            "Notepad",
+            "Wireshark",
+            "Paint"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Wireshark là công cụ phân tích hiệu năng mạng."
+        },
+        {
+          "id": 126,
+          "question": "Latency (độ trễ) là:",
+          "options": [
+            "Tốc độ xử lý CPU",
+            "Thời gian để 1 gói tin đến đích",
+            "Số IP có trong mạng",
+            "Tên miền truy cập"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Latency đo thời gian truyền gói tin."
+        },
+        {
+          "id": 127,
+          "question": "Throughput (thông lượng) là:",
+          "options": [
+            "Băng thông tối đa",
+            "Tốc độ thực tế truyền dữ liệu",
+            "Tên người dùng",
+            "Lượng RAM sử dụng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Throughput là tốc độ truyền thực tế."
+        },
+        {
+          "id": 128,
+          "question": "SNMP là viết tắt của:",
+          "options": [
+            "Simple Network Management Protocol",
+            "Smart Network Media Protocol",
+            "Single Node Managed Packet",
+            "Service Network Management Port"
+          ],
+          "correctAnswer": 0,
+          "explanation": "SNMP là giao thức quản lý mạng đơn giản."
+        },
+        {
+          "id": 129,
+          "question": "Giao thức SNMP dùng để:",
+          "options": [
+            "Quản lý hiệu năng mạng",
+            "Gửi mail",
+            "Mã hóa dữ liệu",
+            "Tạo web server"
+          ],
+          "correctAnswer": 0,
+          "explanation": "SNMP giám sát và quản lý hiệu năng mạng."
+        },
+        {
+          "id": 130,
+          "question": "Công cụ giám sát hiệu năng mạng nên có khả năng:",
+          "options": [
+            "Thay đổi phần cứng",
+            "Giám sát liên tục và cảnh báo",
+            "Phát wifi",
+            "Tạo email"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Giám sát liên tục và cảnh báo là tính năng quan trọng."
+        },
+        {
+          "id": 131,
+          "question": "Yếu tố không ảnh hưởng hiệu năng mạng:",
+          "options": [
+            "Dây mạng kém chất lượng",
+            "Nhiễu sóng",
+            "Thiết bị lỗi",
+            "Bàn phím hư"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bàn phím không liên quan đến hiệu năng mạng."
+        },
+        {
+          "id": 132,
+          "question": "Để tăng hiệu năng, ta nên:",
+          "options": [
+            "Tăng số thiết bị kết nối",
+            "Cập nhật firmware thiết bị mạng",
+            "Tắt firewall",
+            "Dùng cáp lỗi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cập nhật firmware cải thiện hiệu suất thiết bị."
+        },
+        {
+          "id": 133,
+          "question": "Băng thông là:",
+          "options": [
+            "Tên miền",
+            "Dung lượng file",
+            "Tốc độ tối đa đường truyền",
+            "IP của router"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Băng thông là dung lượng truyền tối đa."
+        },
+        {
+          "id": 134,
+          "question": "Thiết bị ảnh hưởng lớn đến hiệu năng:",
+          "options": [
+            "Switch, Router",
+            "Bàn phím",
+            "Ổ cứng",
+            "USB"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Switch và Router quyết định hiệu năng mạng."
+        },
+        {
+          "id": 135,
+          "question": "Kiểm soát hiệu năng giúp:",
+          "options": [
+            "Tăng bảo mật",
+            "Ngăn virus",
+            "Đảm bảo tốc độ truy cập và giảm lỗi",
+            "Cài ứng dụng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Kiểm soát hiệu năng cải thiện tốc độ và độ ổn định."
+        },
+        {
+          "id": 136,
+          "question": "Công cụ đo ping dùng để:",
+          "options": [
+            "Tính toán độ trễ mạng",
+            "Mã hóa dữ liệu",
+            "Phân tích virus",
+            "Tạo VLAN"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Ping đo độ trễ và kiểm tra kết nối mạng."
+        },
+        {
+          "id": 137,
+          "question": "Đo hiệu năng cần thực hiện:",
+          "options": [
+            "Thường xuyên, liên tục",
+            "Khi mạng hỏng",
+            "Lúc rảnh",
+            "Chỉ trong giờ hành chính"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đo hiệu năng cần thực hiện liên tục để phát hiện vấn đề."
+        },
+        {
+          "id": 138,
+          "question": "Hiệu năng kém có thể do:",
+          "options": [
+            "Tường lửa mạnh",
+            "Băng thông thấp, thiết bị lỗi, nhiễu",
+            "Cài nhiều game",
+            "Máy in nhiều"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Băng thông thấp và thiết bị lỗi là nguyên nhân chính."
+        },
+        {
+          "id": 139,
+          "question": "Wireshark dùng để:",
+          "options": [
+            "Vẽ sơ đồ mạng",
+            "Theo dõi và phân tích gói tin",
+            "Quản lý user",
+            "Đổi IP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Wireshark phân tích chi tiết các gói tin mạng."
+        },
+        {
+          "id": 140,
+          "question": "Giao thức thường dùng để giám sát thiết bị:",
+          "options": [
+            "HTTP",
+            "SNMP",
+            "TCP",
+            "FTP"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SNMP là giao thức giám sát thiết bị mạng."
+        },
+        {
+          "id": 141,
+          "question": "Tăng tốc mạng LAN bằng:",
+          "options": [
+            "Dây mạng rẻ tiền",
+            "Switch chất lượng cao",
+            "Thay màn hình",
+            "Tăng độ trễ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Switch chất lượng cao cải thiện tốc độ mạng LAN."
+        },
+        {
+          "id": 142,
+          "question": "Hiệu năng bị ảnh hưởng khi:",
+          "options": [
+            "Quá tải truy cập",
+            "Mạng cáp quang",
+            "Tường lửa tốt",
+            "Sử dụng DHCP"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Quá tải truy cập làm giảm hiệu năng mạng."
+        },
+        {
+          "id": 143,
+          "question": "Dữ liệu truyền đi bị trễ gây ra:",
+          "options": [
+            "Mạng ổn định",
+            "Mạng chập chờn",
+            "Không ảnh hưởng",
+            "Giảm băng thông"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Độ trễ cao làm mạng không ổn định."
+        },
+        {
+          "id": 144,
+          "question": "Để kiểm tra đường truyền Internet, dùng lệnh:",
+          "options": [
+            "ping",
+            "mkdir",
+            "cd",
+            "ipconfig"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Ping kiểm tra kết nối và độ trễ đường truyền."
+        },
+        {
+          "id": 145,
+          "question": "Một chỉ số hiệu năng tốt là:",
+          "options": [
+            "Mất gói cao",
+            "Jitter lớn",
+            "Latency thấp",
+            "Throughput thấp"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Latency thấp cho thấy mạng phản hồi nhanh."
+        },
+        {
+          "id": 146,
+          "question": "Latency cao gây:",
+          "options": [
+            "Tăng tốc mạng",
+            "Kết nối mượt",
+            "Chậm phản hồi, lag",
+            "Truy cập nhanh hơn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Latency cao làm chậm phản hồi và gây lag."
+        },
+        {
+          "id": 147,
+          "question": "Để giảm jitter, nên:",
+          "options": [
+            "Dùng wifi yếu",
+            "Cải thiện router, giảm nhiễu",
+            "Dùng IP động",
+            "Tăng số user"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cải thiện router và giảm nhiễu giúp giảm jitter."
+        },
+        {
+          "id": 148,
+          "question": "SNMP agent là:",
+          "options": [
+            "Người dùng",
+            "Thiết bị được giám sát",
+            "Máy in",
+            "Firewall"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SNMP agent là thiết bị cung cấp dữ liệu giám sát."
+        },
+        {
+          "id": 149,
+          "question": "SNMP manager là:",
+          "options": [
+            "Máy in",
+            "Thiết bị giám sát và thu thập dữ liệu",
+            "Switch",
+            "Trình duyệt"
+          ],
+          "correctAnswer": 1,
+          "explanation": "SNMP manager thu thập và phân tích dữ liệu từ agent."
+        },
+        {
+          "id": 150,
+          "question": "Hiệu năng tốt giúp:",
+          "options": [
+            "Tăng thời gian chết",
+            "Giảm độ ổn định",
+            "Tăng trải nghiệm người dùng và hiệu suất làm việc",
+            "Tăng lỗi truy cập"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hiệu năng tốt cải thiện trải nghiệm và hiệu quả."
+        }
+      ]
+    },
+    "6": {
+      "title": "Chương 6: Qu gestion lý bảo mật mạng máy tính",
+      "questions": [
+        {
+          "id": 151,
+          "question": "Mục tiêu chính của bảo mật mạng là gì?",
+          "options": [
+            "Tăng tốc độ mạng",
+            "Giảm chi phí thiết bị",
+            "Bảo vệ dữ liệu và tài nguyên mạng",
+            "Tối ưu hóa phần cứng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bảo mật mạng nhằm ngăn chặn truy cập trái phép, bảo vệ dữ liệu và tài nguyên."
+        },
+        {
+          "id": 152,
+          "question": "Giao thức mã hóa thường dùng để truyền dữ liệu an toàn trên web là gì?",
+          "options": [
+            "HTTP",
+            "FTP",
+            "HTTPS",
+            "Telnet"
+          ],
+          "correctAnswer": 2,
+          "explanation": "HTTPS dùng SSL/TLS để mã hóa dữ liệu truyền tải, tăng tính bảo mật."
+        },
+        {
+          "id": 153,
+          "question": "Thiết bị tường lửa có vai trò gì?",
+          "options": [
+            "Tăng băng thông mạng",
+            "Lưu trữ dữ liệu",
+            "Lọc và kiểm soát lưu lượng truy cập",
+            "Gửi email"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tường lửa ngăn chặn truy cập không hợp lệ và bảo vệ hệ thống nội bộ."
+        },
+        {
+          "id": 154,
+          "question": "Một phương pháp xác thực phổ biến là:",
+          "options": [
+            "Đổi IP",
+            "Nhập mật khẩu",
+            "Restart modem",
+            "Xóa cache"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mật khẩu là cách cơ bản để xác minh danh tính người dùng."
+        },
+        {
+          "id": 155,
+          "question": "Virus, worm, trojan là gì?",
+          "options": [
+            "Các công cụ quản trị mạng",
+            "Phần mềm độc hại (malware)",
+            "Thiết bị phần cứng",
+            "Tên giao thức"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đây là các loại phần mềm độc hại gây hại cho hệ thống mạng."
+        },
+        {
+          "id": 156,
+          "question": "Phát biểu nào là đúng về mã hóa dữ liệu?",
+          "options": [
+            "Làm giảm hiệu suất mạng",
+            "Làm cho dữ liệu không đọc được nếu không có khóa",
+            "Làm cho mạng nhanh hơn",
+            "Không liên quan đến bảo mật"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mã hóa giúp bảo vệ dữ liệu bằng cách biến đổi nội dung thành dạng không thể đọc nếu không có khóa."
+        },
+        {
+          "id": 157,
+          "question": "Mô hình bảo mật phổ biến nhất trong quản trị mạng là:",
+          "options": [
+            "Bảo mật vật lý",
+            "Bảo mật cấp thiết bị",
+            "Mô hình CIA",
+            "Mô hình TCP/IP"
+          ],
+          "correctAnswer": 2,
+          "explanation": "CIA gồm Tính bảo mật (Confidentiality), toàn vẹn (Integrity), và sẵn sàng (Availability)."
+        },
+        {
+          "id": 158,
+          "question": "Giao thức nào không mã hóa dữ liệu?",
+          "options": [
+            "SSH",
+            "HTTPS",
+            "Telnet",
+            "FTPS"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Telnet truyền dữ liệu dưới dạng văn bản thuần, dễ bị nghe lén."
+        },
+        {
+          "id": 159,
+          "question": "IDS là viết tắt của:",
+          "options": [
+            "Internal Data Storage",
+            "Internet Domain Server",
+            "Intrusion Detection System",
+            "Intranet Directory System"
+          ],
+          "correctAnswer": 2,
+          "explanation": "IDS phát hiện hành vi xâm nhập bất thường vào hệ thống mạng."
+        },
+        {
+          "id": 160,
+          "question": "Chính sách bảo mật giúp:",
+          "options": [
+            "Cài đặt phần mềm",
+            "Quản lý người dùng và quyền truy cập",
+            "Gửi thông báo mạng",
+            "Tạo giao diện người dùng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chính sách bảo mật quy định ai được truy cập gì và khi nào."
+        },
+        {
+          "id": 161,
+          "question": "Phishing là hình thức tấn công nào?",
+          "options": [
+            "Đánh cắp mật khẩu qua email giả mạo",
+            "Phát tán phần mềm hợp pháp",
+            "Sửa chữa phần mềm",
+            "Gửi thư rác"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Phishing dụ người dùng cung cấp thông tin nhạy cảm qua email giả."
+        },
+        {
+          "id": 162,
+          "question": "VPN dùng để:",
+          "options": [
+            "Chia sẻ tệp tin",
+            "Bảo mật kết nối từ xa",
+            "Tăng tốc mạng LAN",
+            "Tăng dung lượng ổ cứng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "VPN tạo đường hầm mã hóa giữa người dùng và mạng công ty."
+        },
+        {
+          "id": 163,
+          "question": "Hai hình thức tấn công phổ biến là:",
+          "options": [
+            "Trực tiếp và gián tiếp",
+            "Nội bộ và từ xa",
+            "Bị động và chủ động",
+            "Ảo và thực"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tấn công bị động nghe lén, chủ động thay đổi hoặc phá hoại dữ liệu."
+        },
+        {
+          "id": 164,
+          "question": "Xác thực hai yếu tố là:",
+          "options": [
+            "Nhập hai mật khẩu",
+            "Dùng hai thiết bị khác nhau",
+            "Kết hợp hai hình thức xác minh (ví dụ: mật khẩu + OTP)",
+            "Đăng nhập hai lần"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2FA giúp tăng độ an toàn bằng cách dùng hai hình thức xác thực."
+        },
+        {
+          "id": 165,
+          "question": "Một phương pháp phổ biến để phát hiện mã độc là:",
+          "options": [
+            "Format ổ cứng",
+            "Cài lại hệ điều hành",
+            "Dùng phần mềm diệt virus",
+            "Reset router"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Phần mềm diệt virus quét và xử lý các tập tin nghi ngờ."
+        },
+        {
+          "id": 166,
+          "question": "Đặc điểm chính của firewall:",
+          "options": [
+            "Có thể thay thế router",
+            "Giám sát lưu lượng và chặn gói dữ liệu không hợp lệ",
+            "Tăng tốc độ kết nối",
+            "Lưu trữ dữ liệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Firewall kiểm tra gói tin ra vào để ngăn chặn mối đe dọa."
+        },
+        {
+          "id": 167,
+          "question": "Giao thức SSH dùng để:",
+          "options": [
+            "Tạo kết nối từ xa bảo mật",
+            "Tăng tốc tải web",
+            "Chia sẻ máy in",
+            "Quản lý cơ sở dữ liệu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "SSH giúp kết nối và điều khiển hệ thống từ xa với mã hóa."
+        },
+        {
+          "id": 168,
+          "question": "Biện pháp đơn giản để tăng cường bảo mật mạng là:",
+          "options": [
+            "Tăng tốc độ mạng",
+            "Dùng mật khẩu mạnh",
+            "Giảm băng thông",
+            "Xóa lịch sử trình duyệt"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mật khẩu mạnh giúp giảm khả năng bị dò mật khẩu."
+        },
+        {
+          "id": 169,
+          "question": "Quản trị viên nên làm gì để đảm bảo bảo mật định kỳ?",
+          "options": [
+            "Cập nhật phần mềm và vá lỗ hổng",
+            "Tăng RAM",
+            "Gỡ bỏ các phần mềm không sử dụng",
+            "Nâng cấp card mạng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cập nhật giúp sửa các lỗ hổng bị kẻ tấn công lợi dụng."
+        },
+        {
+          "id": 170,
+          "question": "Backdoor là gì?",
+          "options": [
+            "Phần mềm diệt virus",
+            "Cổng truy cập bí mật do hacker cài đặt",
+            "Một loại firewall",
+            "Ổ cứng phụ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Backdoor cho phép truy cập trái phép hệ thống mà không bị phát hiện."
+        },
+        {
+          "id": 171,
+          "question": "Chính sách 'nguyên tắc đặc quyền tối thiểu' nghĩa là:",
+          "options": [
+            "Ai cũng có quyền truy cập tất cả",
+            "Chỉ cấp quyền cần thiết cho người dùng",
+            "Vô hiệu hóa toàn bộ quyền",
+            "Tự động reset quyền"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hạn chế quyền giúp giảm rủi ro nếu tài khoản bị xâm nhập."
+        },
+        {
+          "id": 172,
+          "question": "Spam là:",
+          "options": [
+            "Email quảng cáo không mong muốn",
+            "Tên giao thức mạng",
+            "Dữ liệu mã hóa",
+            "Kênh truyền tin nội bộ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Spam là thư rác, thường chứa liên kết độc hại."
+        },
+        {
+          "id": 173,
+          "question": "Một dấu hiệu của máy tính bị nhiễm mã độc là:",
+          "options": [
+            "Khởi động nhanh hơn bình thường",
+            "Tự động mở trình duyệt hoặc phần mềm lạ",
+            "Tăng tốc độ mạng",
+            "Tăng bộ nhớ trống"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mã độc thường gây ra hành vi bất thường như tự động mở ứng dụng."
+        },
+        {
+          "id": 174,
+          "question": "Port scanning là:",
+          "options": [
+            "Quét ổ cứng",
+            "Quét các cổng mở trên hệ thống để tìm điểm yếu",
+            "Quét dữ liệu người dùng",
+            "Quét mạng LAN"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tin tặc dùng port scanning để tìm cổng dịch vụ dễ tấn công."
+        },
+        {
+          "id": 175,
+          "question": "Hành vi tấn công từ chối dịch vụ (DoS) là:",
+          "options": [
+            "Cố tình làm nghẽn hệ thống để ngắt dịch vụ",
+            "Ngắt kết nối Internet",
+            "Tăng tốc độ xử lý dữ liệu",
+            "Mã hóa toàn bộ ổ cứng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "DoS gửi nhiều yêu cầu quá mức khiến hệ thống quá tải và dừng hoạt động."
+        },
+        {
+          "id": 176,
+          "question": "MFA là viết tắt của:",
+          "options": [
+            "Multiple File Access",
+            "Multi-Factor Authentication",
+            "Main Firewall Authority",
+            "Master File Application"
+          ],
+          "correctAnswer": 1,
+          "explanation": "MFA tăng cường bảo mật bằng nhiều lớp xác thực."
+        },
+        {
+          "id": 177,
+          "question": "Packet sniffer là gì?",
+          "options": [
+            "Phần mềm tối ưu hóa tốc độ mạng",
+            "Công cụ theo dõi và phân tích gói tin",
+            "Thiết bị lưu trữ",
+            "Hệ điều hành"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Packet sniffer giúp phát hiện hành vi bất thường trong lưu lượng mạng."
+        },
+        {
+          "id": 178,
+          "question": "Cách tốt nhất để bảo mật Wi-Fi là:",
+          "options": [
+            "Tắt router khi không dùng",
+            "Đặt mật khẩu mạnh và dùng WPA2/WPA3",
+            "Chia sẻ mật khẩu cho nhiều người",
+            "Không đặt mật khẩu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Giao thức mã hóa WPA2/WPA3 giúp bảo mật mạng không dây tốt hơn."
+        },
+        {
+          "id": 179,
+          "question": "Quản trị viên nên lưu nhật ký hệ thống (log) để làm gì?",
+          "options": [
+            "Tăng dung lượng ổ cứng",
+            "Theo dõi và phát hiện bất thường",
+            "Tăng tốc độ xử lý",
+            "Lưu cache"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nhật ký hệ thống giúp giám sát, điều tra và xử lý sự cố bảo mật."
+        },
+        {
+          "id": 180,
+          "question": "Để tránh bị nghe lén dữ liệu trên mạng, nên sử dụng:",
+          "options": [
+            "Telnet",
+            "FTP",
+            "HTTPS hoặc SSH",
+            "HTTP"
+          ],
+          "correctAnswer": 2,
+          "explanation": "HTTPS và SSH đều mã hóa dữ liệu để tránh bị bên thứ ba nghe lén."
+        }
+      ]
+    }
+}
+}
